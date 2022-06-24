@@ -1,0 +1,75 @@
+.main{
+    position: relative;
+    height: 82vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: space-around;
+    background-size: cover;
+    background-image: url("/technology/background-technology-desktop.jpg");
+}
+.left{
+    padding: 2rem;
+    max-width: 39rem;
+    padding-top: 0;
+    margin-top: 3rem;
+    position: relative;
+}
+.left .btnsInfo{
+    display: flex;
+}
+.left .btns{
+
+}
+.left button{
+    text-align: center;
+    aspect-ratio: 1;
+    display: block;
+    width: 60px;
+    border-radius: 100%;
+    background: none;
+    border: 1px solid rgba(151, 151, 151, 0.5);
+    color: #fff;
+    font-size: 25px;
+    font-family: "Barlow-Condensed";
+    cursor: pointer;
+    transition: 0.25s;
+    margin: 2.5rem;
+    margin-left: 0;
+    
+}
+.left .info{
+margin-top: 2rem;
+}
+.left p{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.left h1{
+
+    padding: 0.5rem 0;
+    font-size: 2.7rem;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.left .desc{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+.left button:hover,
+.left button:focus,
+.left button:active{
+    background-color: #fff;
+    color: black;
+}
+.right{
+    margin: 1rem;
+    margin-right: 5rem;
+    max-width: 20rem;
+}
+.right img{
+    width: auto;
+    height: 24rem;
+    filter: drop-shadow(2px 4px 8px #585858);
+}

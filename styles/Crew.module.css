@@ -1,0 +1,65 @@
+.main{
+    position: relative;
+    height: 82vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: space-around;
+    background-size: cover;
+    background-image: url("/crew/background-crew-desktop.jpg");
+}
+.left{
+    padding: 2rem;
+    max-width: 34rem;
+    padding-top: 0;
+    margin-top: 3rem;
+    position: relative;
+}
+.left h1{
+    padding: 0.5rem 0;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.left h3{
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+    font-size: 2rem;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.left p{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.left .desc{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+.left .btns{
+    margin-left: -1rem;
+}
+.left button{
+    height: 2rem;
+    width: 2rem;
+    background-color: rgba(255, 255, 255, 0.404);
+    margin: 1rem;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.left button:hover,
+.left button:focus,
+.left button:active{
+    background-color: #fff;
+}
+.right{
+    margin: 1rem;
+    margin-right: 5rem;
+    max-width: 20rem;
+}
+.right img{
+    width: auto;
+    height: 30rem;
+    filter: drop-shadow(2px 4px 8px #585858);
+}

@@ -1,17 +1,109 @@
+
 .container {
   padding: 0 2rem;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("/home/background-home-desktop.jpg");
+  
+}
+.main {
+  height: 82vh;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+
+}
+.main .left{
+  color: white;
+  width: 35rem;
+  text-align: left;
+  margin-left: 4rem;
+  padding: 2rem;
+}
+.left h5{
+  font-size: 1.7rem;
+  font-family: monospace;
+
+}
+.left h1{
+  background: -webkit-linear-gradient(#ffffff, #000066 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-size: 8rem;
+  font-family:  sans-serif;
+  font-weight: 300;
+  padding: 0.5rem 0;
+}
+.left p{
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.main .right{
+  margin-right: 12rem;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.right button{
+  background-color: #fff;
+  text-align: center;
+  aspect-ratio: 1;
+  display: block;
+  width: 15rem;
+  border-radius: 100%;
+  border: 1px solid rgba(151, 151, 151, 0.5);
+  color: black;
+  font-size: 25px;
+  font-family: "Barlow-Condensed";
+  cursor: pointer;
+  transition: 0.25s;
+  margin: 2.5rem;
+  margin-left: 0;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+.mainnav{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.mainnav .logo{
+  margin: 3rem ;
+  height: auto;
+  width: 21rem;
+  margin-right: 0;
+}
+.mainnav ul{
+  display: flex;
+  background-color: rgba(0,0,0, 0.4); 
+  color: #fff;
+  backdrop-filter: blur(8px);
+  font-weight: bold;
+  padding-left: 7rem;
+  padding-right: 10rem;
+  max-width: 80rem;
+  overflow: hidden;
+
+}
+
+.mainnav ul li{
+  padding:  1rem 1rem;
+  display: flex;
   align-items: center;
 }
 
+.mainnav ul li span{
+  padding: 1rem 0.7rem;
+
+}
 .footer {
   display: flex;
   flex: 1;
@@ -33,17 +125,13 @@
   text-decoration: none;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
+.mainnav ul a:hover,
+.mainnav ul a:focus,
+.mainnav ul a:active {
   text-decoration: underline;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
+
 
 .title,
 .description {

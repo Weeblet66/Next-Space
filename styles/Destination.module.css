@@ -1,0 +1,74 @@
+
+.main{
+    position: relative;
+    height: 82vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: space-around;
+    background-size: cover;
+    background-image: url("/destination/background-destination-desktop.jpg");
+}
+.left{
+    padding: 2rem;
+    padding-top: 0;
+    text-align: center;
+}
+.left p{
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+.left img{
+    padding: 1rem;
+    filter: drop-shadow(2px 4px 8px #585858);
+}
+.right{
+    padding: 2rem;
+    max-width: 34rem;
+    padding-top: 0;
+}
+.right ul{
+    display: flex;
+    text-align: center;
+
+}
+.right li{
+    padding: 1rem;
+}
+.right button:hover,
+.right button:focus,
+.right button:active{
+    text-decoration: underline;
+}
+.right button{
+    color: #fff;
+    font-size: 1.6rem;
+}
+.right h1{
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1rem;
+    font-size: 5.3rem;
+    font-family: sans-serif;
+}
+.right h6{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.right p{
+    color: #fff;
+    padding: 1rem;
+}
+.right hr{
+    margin: 1rem;
+}
+.right .distanceTravel{
+    display: flex;
+    margin: 2rem;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 1.8rem;
+}
