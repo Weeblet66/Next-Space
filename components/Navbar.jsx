@@ -39,11 +39,11 @@ const Navbar = () => {
         
    
     <ul>
-      <Link href='/'><a onClick={home} className={styles.title}>
-      <li ><span>00</span> HOME</li></a></Link>
-      <Link href='/destination'><a  onClick={destination}><li><span>01</span> DESTINATION</li></a></Link>
-      <Link href='/crew'><a onClick={crew}><li><span>02</span> CREW</li></a></Link>
-      <Link href='/technology'><a onClick={technology}><li><span>04</span> TECHNOLOGY</li></a></Link>
+      <Link href='/'>
+      <li  onClick={home} className={styles.title} ><span>00</span> HOME</li></Link>
+      <Link href='/destination'><li onClick={destination}><span>01</span> DESTINATION</li></Link>
+      <Link href='/crew'><li onClick={crew}><span>02</span> CREW</li></Link>
+      <Link href='/technology'><li onClick={technology}><span>04</span> TECHNOLOGY</li></Link>
       <span className={styles.end}></span>
     </ul>
   </nav>
